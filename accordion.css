@@ -1,0 +1,15 @@
+/* Accordion Styles */
+.accordion {
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+}
+.accordion-title {
+    border-top: 1px solid #dbdbdb;
+    margin: 0;
+    padding: 20px 0;
+    cursor: pointer;
+}
+.accordion-title:hover {}
+.accordion-title:first-child {border: none;}
+.accordion-title.open {cursor: default;}
+.accordion-content {padding-bottom: 20px;}

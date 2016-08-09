@@ -1,0 +1,85 @@
+/*
+ * Theme Name:  Barcelona. Child
+ * Theme URI:   http://themeforest.net/item/barcelona-clean-news-magazine-wordpress-theme/13308848
+ * Description: Child theme of Barcelona theme.
+ * Author:      Aggressive Motions
+ * Author URI:  http://www.aggressivemotions.com
+ * Template:    barcelona
+ * Template Version: 1.3.1
+ * Version: 1.0.0
+ */
+
+@import 'accordion.css';
+@import 'fotorama.css';
+
+.post-content ul li,
+.post-content ol li {
+    padding: 0 0 18px !important;
+}
+
+.post-content {
+    font-size: 18px !important;
+}
+
+.post-content a:link {
+    color:#0055AA !important;
+    text-decoration: none !important;
+}
+
+.post-content a:visited {
+    color:#5925a5 !important;
+    text-decoration: none !important;
+}
+
+.post-content a:hover {
+    text-decoration: underline !important;
+}
+
+@media only screen and (min-width: 992px) {
+    .sidebar-none .post-content {
+	width: 100% !important;
+    }
+    .has-sidebar #main {
+        width: 890px !important;
+    }
+
+    #sidebar {
+        width: 250px !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .has-sidebar #main {
+        width: 890px !important;
+    }
+
+    #sidebar {
+        width: 250px !important;
+    }
+}
+
+.breadcrumb {
+    font-weight: lighter !important;
+}
+
+.navbar-logo {
+    font-weight: lighter !important;
+    text-transform: uppercase !important;
+}
+
+.navbar-nav > li > a,
+.navbar-nav > li > .btn {
+    font-weight: lighter !important;
+}
+
+.box-header .title {
+    font-weight: lighter !important;
+}
+
+.post-summary .post-title {
+    font-weight: lighter !important;
+}
+
+.featured-image .post-title {
+    font-weight: lighter !important;
+}

@@ -1,0 +1,18 @@
+.fotorama__caption {
+    position: absolute;
+    z-index: 12;
+    bottom: 30px;
+    left: 30px;
+    right: 0;
+    font-family: 'Ubuntu';
+    line-height: 1.5;
+    font-size: x-large;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.fotorama__caption__wrap {
+    background-color: transparent !important;
+    padding: 5px 10px;
+}
